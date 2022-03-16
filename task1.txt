@@ -1,0 +1,20 @@
+x = float(input("Enter number x = "))
+y = float(input("Enter number y = "))
+z = input('What function to be used:?(+,-,*,/)')
+if z == '+':
+    print(x + y)
+elif z == '-':
+    print(x - y)
+elif z == '*':
+    print(x * y)
+elif z == '/':
+    if y != 0:
+        print(x / y)
+    else:
+        print("Not possible to divide to 0!")
+#calc_again = input('Do you want to calculate again? Please type Y for YES 
+or N for NO.'
+#if calc_again == 'Y':
+    calculate()
+elif calc_again == 'N':
+    print('See you later.')

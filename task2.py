@@ -1,0 +1,11 @@
+a = 0
+b = 2
+c = 5
+temp_value = a
+z = temp_value
+a = a + b
+print('a =', a)
+b = c - z
+print('b =', b)
+c = z + b + c
+print('c =', c)
